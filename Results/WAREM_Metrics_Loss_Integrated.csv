@@ -1,0 +1,13 @@
+Scenario,Strategy,Unmet Load (kWh),Grid Cost (£),Curtailment (kWh),Avg Battery SoC (%),Avg Hydrogen SoC (%),Total Loss Value
+extreme_renewable_drought,Rule-Based,172397.72,25535.61,0.0,15.0,15.04,3926598.81
+extreme_renewable_drought,CADT-PIML,172397.72,25535.61,0.0,15.0,15.04,3926598.81
+polar_vortex,Rule-Based,131414.08,36112.23,94246.57,37.82,37.76,6566703.01
+polar_vortex,CADT-PIML,131419.8,36108.59,94247.68,37.93,37.69,6564072.24
+evening_peak,Rule-Based,80335.83,15405.45,121606.97,44.08,44.38,5128617.69
+evening_peak,CADT-PIML,80345.31,15405.07,121614.71,44.16,44.34,5124929.08
+spring_ramp,Rule-Based,4641.46,410.35,47074.7,56.74,64.74,916230.9
+spring_ramp,CADT-PIML,4641.46,410.07,47073.59,56.83,64.67,916154.43
+weekend_dip,Rule-Based,49448.42,10050.15,140286.35,48.62,54.02,3782155.65
+weekend_dip,CADT-PIML,49450.87,10048.73,140286.06,48.69,53.97,3779769.69
+battery_stress_test,Rule-Based,58972.64,11900.5,133130.59,47.01,51.62,4003100.89
+battery_stress_test,CADT-PIML,58978.1,11900.56,133134.42,47.09,51.57,4000947.98
